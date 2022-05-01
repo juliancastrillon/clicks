@@ -1,0 +1,69 @@
+:root {
+  background-color: aquamarine;
+  display: flex;
+  justify-content: center;
+}
+.App {
+  font-family: sans-serif;
+}
+.parrafosuma {
+  color: rgb(42, 47, 48);
+  text-align: center;
+}
+.parraforesta {
+  color: rgb(42, 47, 48);
+  text-align: center;
+}
+.parraforreset {
+  text-align: center;
+  color: rgb(42, 47, 48);
+}
+.tittle {
+  margin-left: 50px;
+  color: rgb(42, 47, 48);
+  font-weight: bold;
+}
+.count {
+  margin-left: 70px;
+  margin-top: 40px;
+  margin-bottom: 50px;
+  font-size: 30px;
+  color: rgb(42, 47, 48);
+  font-weight: bold;
+}
+.sumar {
+  padding: 30px 20px;
+  margin: 5px;
+  border-radius: 15px;
+  border: none;
+  color: rgb(75, 105, 106);
+}
+.sumar:hover {
+  transform: rotate(360deg);
+  transition: 1s;
+  border: solid 1px green;
+}
+.restar {
+  padding: 30px 20px;
+  margin: 5px;
+  border-radius: 15px;
+  border: none;
+  color: rgb(75, 105, 106);
+}
+.restar:hover {
+  border: solid 1px green;
+  transform: scale(1.1);
+  transition: 0.4s;
+}
+.reset {
+  padding: 30px 20px;
+  margin: 5px;
+  border-radius: 15px;
+  border: none;
+  color: rgb(75, 105, 106);
+}
+.reset:hover {
+  color: rgb(42, 47, 48);
+  transform: translate(-1px, 2px);
+  transition: 0.2s;
+}
